@@ -9,8 +9,7 @@ import hudson.slaves.DumbSlave;
 import org.jvnet.hudson.test.JenkinsRule;
 
 /**
- * @author yasuke
- *
+ * Fixes for Jenkins < 1.479.
  */
 public class FixedJenkinsRule extends JenkinsRule
 {
