@@ -4,6 +4,10 @@
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>1.517</version><!-- which version of Jenkins is this plugin built against? -->
+    <!-- <version>1.440</version>--> <!-- Reproduced with HudsonTestCase -->
+    <!-- <version>1.441</version>--> <!-- Not reproduced -->
+    <!-- <version>1.481</version>--> <!-- Not reproduced -->
+    <!-- <version>1.482</version>--> <!-- Reproduced with HudsonTestCase -->
   </parent>
 
   <groupId>org.jenkins-ci.plugins</groupId>

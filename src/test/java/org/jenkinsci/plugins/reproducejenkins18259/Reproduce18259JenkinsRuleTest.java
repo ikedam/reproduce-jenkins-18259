@@ -9,7 +9,6 @@ import hudson.slaves.DumbSlave;
 
 import org.junit.Rule;
 import org.junit.Test;
-import org.jvnet.hudson.test.JenkinsRule;
 
 /**
  * @author yasuke
@@ -18,7 +17,7 @@ import org.jvnet.hudson.test.JenkinsRule;
 public class Reproduce18259JenkinsRuleTest
 {
     @Rule
-    public JenkinsRule j = new JenkinsRule();
+    public FixedJenkinsRule j = new FixedJenkinsRule();
     
     @Test
     public void testSlave() throws Exception
