@@ -24,4 +24,11 @@ public class FixedJenkinsRule extends JenkinsRule
         // createOnlineSlave is protected with Jenkins < 1.479
         return super.createOnlineSlave();
     }
+    
+    @Override
+    public DumbSlave createSlave() throws Exception
+    {
+        // createSlave is protected with Jenkins < 1.479
+        return super.createSlave();
+    }
 }
