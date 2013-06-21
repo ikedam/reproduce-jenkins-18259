@@ -44,6 +44,7 @@ public class Reproduce18259JenkinsRuleTest
         j.assertBuildStatusSuccess(p.scheduleBuild2(p.getQuietPeriod()));
     }
     
+    @Test
     public void testShutdownSlave() throws Exception {
         DumbSlave slave1 = j.createOnlineSlave(); // online, and a build finished.
         DumbSlave slave2 = j.createOnlineSlave(); // online, and a build finished, and disconnected.
